@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="248" fill="#4CAF50" stroke="#2E7D32" stroke-width="16"/>
+  
+  <!-- Wheat symbol -->
+  <path d="M256 120C256 120 220 160 220 200C220 240 256 280 256 280" stroke="#FDD835" stroke-width="24" stroke-linecap="round"/>
+  <path d="M256 120C256 120 292 160 292 200C292 240 256 280 256 280" stroke="#FDD835" stroke-width="24" stroke-linecap="round"/>
+  
+  <!-- Trading arrows -->
+  <path d="M176 340H336M176 340L216 300M176 340L216 380" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M336 340H176M336 340L296 300M336 340L296 380" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+</svg> 
