@@ -35,10 +35,14 @@ A multiplayer web-based trading game built with React, TypeScript, and Firebase.
 
 ## Game Mechanics
 
-- Start with basic production facilities
+- Start with basic production facilities (farmland and mill)
 - Produce resources like grain, corn, and flour
-- Trade with other players in the marketplace
-- Build your trading empire!
+- Optimize your production by selecting the right recipes
+- Monitor your inventory and production progress
+- Create listings to sell your excess resources
+- Browse other players' listings to find good deals
+- Trade strategically to maximize your profits
+- Expand your trading network and become the ultimate trader!
 
 # React + Vite
 
