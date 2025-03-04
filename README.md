@@ -56,3 +56,20 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Deployment
+
+To deploy the Trader Game to production:
+
+1. Build the production version:
+   ```
+   npm run build
+   ```
+
+2. Deploy to your preferred hosting provider:
+   - Firebase Hosting
+   - Vercel
+   - Netlify
+   - GitHub Pages
+
+Be sure to configure your Firebase project settings in the `.env` file before deployment.
