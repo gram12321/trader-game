@@ -1,3 +1,45 @@
+# Trader Game
+
+A multiplayer web-based trading game built with React, TypeScript, and Firebase.
+
+## Features
+
+- **Resource Production**: Farm land for grain and corn, mill for processing grain into flour
+- **Trading System**: Buy and sell resources in the marketplace
+- **User Authentication**: Anonymous authentication with username selection
+
+## Technologies Used
+
+- React + Vite
+- TypeScript
+- Firebase (Authentication, Firestore)
+- Tailwind CSS
+
+## Getting Started
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/gram12321/trader-game.git
+   ```
+   
+2. Install dependencies:
+   ```
+   cd trader-game
+   npm install
+   ```
+   
+3. Run the development server:
+   ```
+   npm run dev
+   ```
+
+## Game Mechanics
+
+- Start with basic production facilities
+- Produce resources like grain, corn, and flour
+- Trade with other players in the marketplace
+- Build your trading empire!
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
