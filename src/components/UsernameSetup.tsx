@@ -60,9 +60,18 @@ export const UsernameSetup: React.FC<UsernameSetupProps> = ({ onComplete }) => {
             const usernameQuery = await getDoc(doc(db, 'usernames', username.toLowerCase()));
             
             if (usernameQuery.exists()) {
-                setError('This username is already taken. Please choose another.');
-                setIsLoading(false);
-                return;
+                // Username exists, treat this as a login
+                const userDoc = await getDoc(doc(db, 'players', usernameQuery.data().userId));
+                if (userDoc.exists()) {
+                    // Restore user session
+                    restoreUserSession(userDoc.data());
+                    onComplete();
+                    return;
+                } else {
+                    setError('User data not found. Please try again.');
+                    setIsLoading(false);
+                    return;
+                }
             }
 
             // Save username
@@ -88,6 +97,13 @@ export const UsernameSetup: React.FC<UsernameSetupProps> = ({ onComplete }) => {
         } finally {
             setIsLoading(false);
         }
+    };
+
+    // Function to restore user session
+    const restoreUserSession = (userData: any) => {
+        // Logic to restore user data such as production, inventory, coins, etc.
+        console.log('Restoring user session:', userData);
+        // Implement session restoration logic here
     };
 
     if (isCheckingUser) {

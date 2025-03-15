@@ -15,24 +15,6 @@ A multiplayer web-based trading game built with React, TypeScript, and Firebase.
 - Firebase (Authentication, Firestore)
 - Tailwind CSS
 
-## Getting Started
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/gram12321/trader-game.git
-   ```
-   
-2. Install dependencies:
-   ```
-   cd trader-game
-   npm install
-   ```
-   
-3. Run the development server:
-   ```
-   npm run dev
-   ```
-
 ## Game Mechanics
 
 - Start with basic production facilities (farmland and mill)
